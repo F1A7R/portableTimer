@@ -16,8 +16,8 @@ extension Locations {
         return NSFetchRequest<Locations>(entityName: "Locations")
     }
 
-    @NSManaged public var metroStart: String?
-    @NSManaged public var metroEnd: String?
+    @NSManaged public var startLocation: String?
+    @NSManaged public var endLocation: String?
     @NSManaged public var metroNum: String?
 
 }
